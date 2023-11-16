@@ -1,0 +1,55 @@
+.project {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    max-width: 1530px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+
+} 
+
+
+
+
+.body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem; 
+    margin-top: 4rem; 
+    margin-bottom: 3rem;
+}
+
+
+.top {
+    padding: 10px;
+}
+
+
+.left {
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+    display: flex;
+    width: 20%;
+ 
+}
+
+
+
+.right {
+    color: white;
+    font-weight: bold;
+    width: auto;
+}
+
+
+
+.line {
+    width: auto; 
+    height: 1px;
+    background-color: #C778DD;
+  }
+
