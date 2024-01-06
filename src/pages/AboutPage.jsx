@@ -1,13 +1,11 @@
-
-
-import About_Page from "../components/summary/About_Page"
+import AboutMe from "../components/summary/About_Page"
 
 
 const AboutPage = () => {
     return (
         <>
             <div>
-                <About_Page />
+                <AboutMe />
             </div>
         </>
     )

@@ -61,6 +61,7 @@
   
   .description-text {
     color: #ABB2BF;
+    margin-left: 2rem;
   }
   
   /* Right section */
@@ -73,6 +74,8 @@
   .box-container {
     border: 1px solid #ABB2BF;
     padding: 16px;
+    margin: auto;
+    margin-top: 1rem;;
   }
   
   .box-title {

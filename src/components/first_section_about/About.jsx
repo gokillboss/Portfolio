@@ -1,5 +1,6 @@
 import React from 'react';
 import './about.css';
+import { NavLink } from "react-router-dom";
 
 
 const About = () => {
@@ -14,9 +15,11 @@ const About = () => {
                     <p className='description'>
                         He crafts responsive websites where technologies meet creativity
                     </p>
-                    <button className='contact'>
-                        Contact me !!
-                    </button>
+                    <NavLink to='/contact'>
+                        <button className='contact'>
+                            Contact me !!
+                        </button>
+                    </NavLink>
                 </div>
 
                 <div data-aos="fade-left" data-aos-delay="400" className='image-container'>

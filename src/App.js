@@ -10,7 +10,6 @@ import ProjectPage from "./pages/ProjectPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 
-
 function App() {
   useEffect(() => {
     Aos.init({ duration: 1000, delay: 500 });
@@ -18,15 +17,14 @@ function App() {
   return (
     <div>
       <Navbar />
-      
+
       <Routes>
-       
         <Route path="/" element={<HomePage />} />
         <Route path="/projects" element={<ProjectPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
-     
+
       <Footer />
     </div>
   );
