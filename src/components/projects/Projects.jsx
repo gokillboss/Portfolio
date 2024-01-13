@@ -31,7 +31,7 @@ function Projects() {
   return (
     <div className="project">
       <div className="top">
-        <div data-aos="fade-down" className="left">
+        <div data-aos="fade-down    " className="left">
           <div className="">
             <span style={{ color: "#C778DD" }}>#</span>Projects
           </div>
