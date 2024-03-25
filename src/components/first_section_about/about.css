@@ -1,42 +1,3 @@
-/* Define the styles for the parent container */
-.container {
-    padding: 0 5px;
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #282C33;
-    max-width: 1560px;
-}
-
-/* Styles for the heading */
-.heading {
-    width: 45%;
-    /* Adjust this value as needed */
-    margin: 0 auto;
-    margin-left: 10%;
-
-}
-
-.heading h1 {
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
-    margin-bottom: 3px;
-}
-
-.heading span {
-    color: #c778dd;
-}
-
-/* Styles for the description */
-.description {
-    color: #abb2bf;
-    margin-top: 6px;
-
-}
 
 /* Styles for the button */
 .contact {
@@ -57,65 +18,6 @@
 
 .contact:active {
     background-color: #c778dd;
-    /* Set the background color when clicked */
+  
 }
 
-/* Styles for the image and status */
-.image-container {
-    width: 45%;
-    text-align: center;
-    margin: 0 auto;
-}
-
-.image-container img {
-    /* Define image styles as needed */
-    width: 60%;
-    height: 60%;
-}
-
-
-/* Define styles for the outer container */
-.outer-container {
-    display: flex;
-    margin-left: 20%;
-    margin-right: 20%;
-    gap: 2px;
-    border: 1px solid #abb2bf;
-    /* You can adjust the border styles as needed */
-    padding: 9px;
-    padding-left: 10%;
-    padding-right: 10%;
-    color: #abb2bf;
-}
-
-/* Define styles for the square element */
-.square {
-    width: 20px;
-    height: 20px;
-    background-color: #c778dd;
-}
-
-/* Define styles for the text content */
-.text-content {
-    color: #abb2bf;
-    margin-left: 15px;
-    text-align: center;
-}
-
-/* Define styles for the text inside the span */
-.text-content span {
-    color: white;
-}
-
-
-/*Define the style for quote image*/
-.quote {
-    text-align: center;
-    padding: 0 5px;
-
-}
-
-.quote img {
-    display: block;
-    margin: 0 auto;
-}

@@ -4,7 +4,7 @@ import AboutMe from "../components/summary/About_Page"
 const AboutPage = () => {
     return (
         <>
-            <div>
+            <div >
                 <AboutMe />
             </div>
         </>
