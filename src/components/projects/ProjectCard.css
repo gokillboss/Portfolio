@@ -1,51 +1,23 @@
-/* Project Card Styles */
-.project-card {
-    background-color: #fff;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    border-radius: 8px;
-    width: 100%;
-    max-width: 400px; /* Adjust the max-width as needed */
-    text-align: center;
-    transition: transform 0.4s ease-in-out;
-    margin-bottom: 20px;
-  }
-  
-  .project-card:hover {
-    transform: translateY(-15px);
-  }
-  
-  .project-image {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  .project-title {
-    font-size: 1.5rem;
-    margin-top: 12px;
-     padding: 5px;
-    color:white;
-  }
-  
-  .project-description {
-    margin-top: 8px;
+
+/* Styles for the button */
+.linkButton {
+    margin-top: 10px;
+    background-color: transparent;
     color: white;
-  }
-  
-  .project-langs {
-    margin-top: 12px;
-    padding: 10px;
-    
-   
-  }
-  
-  .lang-tag {
-    background-color: #c778dd;
-    color: white;
+    font-weight: medium;
+    font-size: 20px;
     padding: 4px 8px;
-    margin-right: 4px;
-    border-radius: 4px;
-    font-size: 0.875rem;
-    display: inline-block;
-  }
+    border: 1px solid #c778dd;
+    transition-duration: 200ms;
+    cursor: pointer;
+}
+
+.linkButton:hover {
+    background-color: #c778dd33;
+}
+
+.linkButton:active {
+    background-color: #c778dd;
   
+}
+

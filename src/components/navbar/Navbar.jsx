@@ -16,11 +16,11 @@ const Navbar = () => {
             <BootstrapNavbar
                 expand="md"
                 variant="dark"
-                className="fixed top-0 left-0 right-0 bg-[#282C33]"
+                className="fixed top-0 bg-[#282C33]"
                 data-aos="fade-down"
                 style={{ fontSize: "20px" }}
             >
-                <div className="container-fluid d-flex justify-content-between align-items-center" style={{ maxWidth: "1560px", margin: "0 auto" }}>
+                <div className="container-fluid d-flex justify-content-between align-items-center" style={{ maxWidth: "1560px", margin:  "auto" }}>
                     <div>
                         <NavLink to="/" className="navbar-brand font-bold text-white d-flex align-items-center">
                             <img
