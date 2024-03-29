@@ -1,12 +1,14 @@
 import AboutMe from "../components/summary/About_Page"
-
+import Skills from "../components/skills_section/Skill"
+import { Container, } from 'react-bootstrap';
 
 const AboutPage = () => {
     return (
         <>
-            <div >
+            <Container >
                 <AboutMe />
-            </div>
+                <Skills />
+            </Container>
         </>
     )
 }
