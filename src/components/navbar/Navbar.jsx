@@ -27,7 +27,7 @@ const Navbar = () => {
                                 src={require("./logo.png")}
                                 alt="Logo"
                                 className="img"
-                                style={{ height: "50px", marginRight: "8px" }} // Adjusted height
+                                style={{ height: "50px", marginRight: "8px" }} 
                             />
                             <span style={{ fontSize: "24px" }}>Sam</span>
                         </NavLink>
@@ -41,7 +41,7 @@ const Navbar = () => {
                     </button>
 
                     <div
-                        className={`collapse navbar-collapse justify-content-end  ${toggle ? "show" : ""}`} // Added justify-content-end class
+                        className={`collapse navbar-collapse justify-content-end  ${toggle ? "show" : ""}`}
                         id="navbarNav"
                     >
                         <ul className="navbar-nav gap-2">
