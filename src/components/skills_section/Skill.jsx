@@ -32,7 +32,7 @@ const Skills = () => {
     ];
 
     return (
-        <Container className='pt-5 my-6'>
+        <Container className='pt-5 my-6 justify-content-center' >
             <Row className='my-5'>
                 <Col className='d-flex my-5'>
                     <div data-aos="fade-up" className='fs-2 text-white'>
@@ -49,14 +49,14 @@ const Skills = () => {
                     </div>
                 </Col>
                 <Col data-aos="fade-left" xs={12} lg={6} className='justify-content-center'>
-                    <div className='d-flex flex-wrap mx-auto'>
+                    <div className='d-flex flex-wrap mx-auto '>
                         {skills.map(({ title, languages }) => (
-                            <div key={title} className='m-2 p-2 border'
+                            <div key={title} className='m-2 p-2 border '
                                 style={{ width: '100%', maxWidth: '12rem' }}
                             // style={{ border: '1px solid white', width: '70%' }}
                             >
-                                <div className='p-2'>
-                                    <h2 className="text-white">{title}</h2>
+                                <div className=' justify-content-center align-items-center'>
+                                    <h2 className="text-white align-items-center">{title}</h2>
                                 </div>
                                 <div className='p-2' style={{ borderTop: '1px solid white' }}>
                                     {languages.map((language, index) => (

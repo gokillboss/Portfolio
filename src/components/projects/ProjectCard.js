@@ -1,13 +1,13 @@
 import React from "react";
 import './ProjectCard.css'
 import { Card, Row, Col } from "react-bootstrap";
+import { NavLink } from "react-router-dom";
 
-const ProjectCard = ({ img, langs, title, disc }) => {
+const ProjectCard = ({ img, langs, title, disc, link }) => {
     return (
-        <Card data-aos="fade-up" data-aos-delay="300" className="mx-auto w-70 md:w-48 lg:w-30 border-purple p-1"
+        <Card data-aos="fade-up" data-aos-delay="300" className="mx-auto w-70 md:w-48 lg:w-30 border-purple p-1 gap-2"
             style={{
-                borderColor: '#C778DD',
-                maxWidth: '400px',
+                borderColor: '#C778DD',               
             }}>
             <Card.Img
                 className="img-fluid img-thumbnail align-item-center"
@@ -31,10 +31,14 @@ const ProjectCard = ({ img, langs, title, disc }) => {
 
                 <Card.Text className="text-white  m-3  d-flex flex-wrap">
                     {disc}</Card.Text>
-                <button className="py-2 px-4 linkButton"
-                >
-                    Live {"<"}~{">"}
-                </button>
+
+                <NavLink to = {link}>
+                    <button className="py-2 px-4 linkButton"
+                    >
+                        Live {"<"}~{">"}
+                    </button>
+                </NavLink>
+
             </Card.Body>
         </Card>
     );

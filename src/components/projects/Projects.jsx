@@ -12,18 +12,22 @@ const projects = [
         langs: ["html", "css", "javascript", "react", "Express", "Node.js, MongoDB"],
         title: "Whale Trade",
         disc: "Paper trading web app",
+        link : 'https://github.com/gokillboss/WhaleTrade'
     },
     {
         img: Wordle,
         langs: ["MUI", "html", "css", "javascript", "Node.js", "React", "Hook"],
         title: "Wordle",
         disc: "A Word guessing game",
+        link: 'https://github.com/gokillboss/Wordle'
     },
     {
         img: Nutrition,
         langs: ["MUI", "css", "javascript", "Node.js", "Koa.JS", "MySQL", "React"],
         title: "Food Trace",
         disc: "Tracking User Nutrition Web App",
+        link : 'https://github.com/gokillboss/FoodTrace'
+
     },
 ];
 
@@ -47,12 +51,11 @@ function Projects() {
                 </div>
             </div>
 
-            {/* bottom */}
             <div data-aos="fade-up" className="mx-auto my-5 pt-5 justify-content-center align-items-center" >
                 <Row xs={1} sm={2} md={3} lg={3} xl={3} className="g-4">
-                    {projects.map(({ img, langs, title, disc }, index) => (
-                        <Col key={index}>
-                            <ProjectCard img={img} langs={langs} title={title} disc={disc} />
+                    {projects.map(({ img, langs, title, disc, link }, index) => (
+                        <Col xs={12} lg={6}  key={index}>
+                            <ProjectCard img={img} langs={langs} title={title} disc={disc} link={link} />
                         </Col>
                     ))}
                 </Row>

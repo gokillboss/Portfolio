@@ -44,7 +44,7 @@ const Contact = () => {
                             </div>
                             <div className="">
                                 <img src={require("./Email.png")} alt="" className="" />
-                                <span className="link-text">samho.bmt@gmail.com</span>
+                                <span className="link-text"> samho.bmt@gmail.com</span>
                             </div>
                         </div>
                     </div>
