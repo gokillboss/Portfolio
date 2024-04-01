@@ -5,7 +5,7 @@ import { NavLink } from "react-router-dom";
 
 const ProjectCard = ({ img, langs, title, disc, link }) => {
     return (
-        <Card data-aos="fade-up" data-aos-delay="300" className="mx-auto w-70 md:w-48 lg:w-30 border-purple p-1 gap-2"
+        <Card data-aos="fade-up" data-aos-delay="300" className="mx-auto lg:w-30 p-1 gap-2"
             style={{
                 borderColor: '#C778DD',               
             }}>

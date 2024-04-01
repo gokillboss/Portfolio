@@ -21,7 +21,7 @@ const projects = [
         langs: ["Bootstrap", "CSS", "javascript", "React", "MySQL", "Node.JS"],
         title: "Portfolio",
         disc: "Web app using to sell books",
-        link : 'https://github.com/gokillboss/Portfolio'
+        link : 'https://github.com/gokillboss/Book-Trade'
 
     },
    
@@ -35,7 +35,7 @@ const projects = [
     },
     {
         img: Portfolio,
-        langs: ["Bootstrap", "CSS", "javascript", "React, AOE"],
+        langs: ["Bootstrap", "CSS", "javascript", "React, AOS"],
         title: "Portfolio",
         disc: "You are using it right now",
         link : 'https://github.com/gokillboss/Portfolio'
@@ -74,7 +74,7 @@ function Projects() {
             <div data-aos="fade-up" className="mx-auto my-5 pt-5 justify-content-center align-items-center" >
                 <Row xs={1} sm={2} md={2} lg={3} xl={3} className="g-4 ">
                     {projects.map(({ img, langs, title, disc, link }, index) => (
-                        <Col xs={12} lg={6}  key={index}>
+                        <Col data-aos="fade-up" xs={12} lg={6}  key={index}>
                             <ProjectCard img={img} langs={langs} title={title} disc={disc} link={link} />
                         </Col>
                     ))}
