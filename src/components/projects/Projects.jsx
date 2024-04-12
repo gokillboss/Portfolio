@@ -9,18 +9,12 @@ import Portfolio from "./Portfolio.png";
 import BookTrade from './BookTrade.png'
 
 const projects = [
-    {
-        img: WhaleTrade,
-        langs: ["html", "CSS", "javascript", "React", "Express", "Node.js, MongoDB"],
-        title: "Whale Trade",
-        disc: "Paper trading web app",
-        link : 'https://github.com/gokillboss/WhaleTrade'
-    },
+
     {
         img: BookTrade,
         langs: ["Bootstrap", "CSS", "javascript", "React", "MySQL", "Node.JS"],
-        title: "Portfolio",
-        disc: "Web app using to sell books",
+        title: "Book Trade",
+        disc: "Web app using to sell used books",
         link : 'https://github.com/gokillboss/Book-Trade'
 
     },
@@ -32,6 +26,13 @@ const projects = [
         disc: "Tracking User Nutrition Web App",
         link : 'https://github.com/gokillboss/FoodTrace'
 
+    },
+    {
+        img: WhaleTrade,
+        langs: ["html", "CSS", "javascript", "React", "Express", "Node.js, MongoDB"],
+        title: "Whale Trade",
+        disc: "Paper trading web app",
+        link : 'https://github.com/gokillboss/WhaleTrade'
     },
     {
         img: Portfolio,
