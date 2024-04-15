@@ -14,13 +14,15 @@ const About = () => {
                     <p className="text-white my-6">
                         He crafts responsive websites where technologies meet creativity
                     </p>
-                    <NavLink to='/contact'>
-                        <div className='mt-3'>
+
+                    <div className='mt-3'>
+                        <NavLink to='/contact'>
                             <button className='contact'>
                                 Contact me!!
                             </button>
-                        </div>
-                    </NavLink>
+                        </NavLink>
+                    </div>
+
                 </Col>
 
                 <Col xs={6} data-aos="fade-left" data-aos-delay="400" className="mx-auto" style={{ minWidth: '20rem' }}>

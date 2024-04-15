@@ -39,7 +39,7 @@ const projects = [
         langs: ["Bootstrap", "CSS", "javascript", "React, AOS"],
         title: "Portfolio",
         disc: "You are using it right now",
-        link : 'https://github.com/gokillboss/Portfolio'
+        link : 'https://dhsam-bmt.com/'
 
     },
     {
@@ -47,7 +47,7 @@ const projects = [
         langs: ["MUI", "html", "CSS", "javascript", "Node.js", "React"],
         title: "Wordle",
         disc: "A Word guessing game",
-        link: 'https://github.com/gokillboss/Wordle'
+        link: 'https://gokillboss.github.io/Wordle/'
     },
    
 ];
