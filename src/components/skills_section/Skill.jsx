@@ -6,21 +6,6 @@ const Skills = () => {
             title: "Language",
             languages: ["JavaScript", "C++", "Python", "Java"]
         },
-        { title: "Databases", languages: ["SQL", "MongoDB", "Firebase"] },
-        {
-            title: "Tools",
-            languages: [
-                "VSCode",
-                "Figma",
-                "Git",
-                "CMV",
-                "Postman",
-            ],
-        },
-        {
-            title: "Other",
-            languages: ["HTML", "CSS", "Bootstrap", "MUI"],
-        },
         {
             title: "Frameworks",
             languages: [
@@ -29,6 +14,21 @@ const Skills = () => {
                 "Koa.js"
             ],
         },
+        { title: "Databases", languages: ["SQL", "MongoDB", "Firebase"] },
+        {
+            title: "Tools",
+            languages: [
+                "VSCode",
+                "Figma",
+                "Git",
+                "Postman",
+            ],
+        },
+        {
+            title: "Other",
+            languages: ["HTML", "CSS", "Bootstrap", "MUI"],
+        },
+
     ];
 
     return (

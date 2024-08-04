@@ -33,8 +33,8 @@ const About = () => {
                     <div className="d-flex justify-content-center my-3 ">
                         <div className="border d-flex align-items-center gap-1 border-[#ABB2BF] p-2 text-[#ABB2BF]" style={{ maxWidth: "100%" }}>
                             <span className='mx-auto' style={{ backgroundColor: "#C778DD", width: '15px', height: '15px' }}></span>
-                            <span className="text-white align-items-center mx-3 text-center">
-                                I am going to be the best <span style={{ color: 'white' }}>Web Developer</span>
+                            <span className="text-white align-items-center mx-3 text-center" style={{fontSize : '20px'}}>
+                                Think Twice <span style={{ color: '#C778DD' }}>Code Once</span>
                             </span>
                         </div>
                     </div>

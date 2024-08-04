@@ -20,14 +20,14 @@ const Navbar = () => {
                 data-aos="fade-down"
                 style={{ fontSize: "20px" }}
             >
-                <div className="container-fluid d-flex justify-content-between align-items-center" style={{ maxWidth: "1560px", margin:  "auto" }}>
+                <div className="container-fluid d-flex justify-content-between align-items-center" style={{ maxWidth: "1560px", margin: "auto" }}>
                     <div>
                         <NavLink to="/" className="navbar-brand font-bold text-white d-flex align-items-center">
                             <img
                                 src={require("./logo.png")}
                                 alt="Logo"
                                 className="img"
-                                style={{ height: "50px", marginRight: "8px" }} 
+                                style={{ height: "50px", marginRight: "8px" }}
                             />
                             <span style={{ fontSize: "24px" }}>Sam</span>
                         </NavLink>
