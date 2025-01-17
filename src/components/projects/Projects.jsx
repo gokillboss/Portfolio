@@ -1,82 +1,71 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCard";
-import WhaleTrade from "./WhaleTrade.png";
-import Wordle from "./Wordle.png";
-import Nutrition from "./nutrition.png";
-import Portfolio from "./Portfolio.png";
-import BookTrade from './BookTrade.png'
+import Portfolio from "../../assets/Portfolio.png";
+import Projxon from "../../assets/Projxon.png";
+import Thinail from "../../assets/Thinail.png";
 
 const projects = [
-
     {
-        img: BookTrade,
-        langs: ["Bootstrap", "CSS", "javascript", "React", "MySQL", "Node.JS"],
-        title: "Book Trade",
-        disc: "Web app using to sell used books",
-        link : 'https://github.com/gokillboss/Book-Trade'
-
-    },
-   
-    {
-        img: Nutrition,
-        langs: ["MUI", "CSS", "javascript", "Node.js", "Koa.JS", "MySQL", "React"],
-        title: "Food Trace",
-        disc: "Tracking User Nutrition Web App",
-        link : 'https://github.com/gokillboss/FoodTrace'
-
+        img: Projxon,
+        langs: ["Bootstrap", "CSS", "JavaScript", "React", "Express", "AWS"],
+        title: "Projxon",
+        disc: "Website for Projxon company",
+        link: "https://www.projxon.com/",
     },
     {
-        img: WhaleTrade,
-        langs: ["html", "CSS", "javascript", "React", "Express", "Node.js, MongoDB"],
-        title: "Whale Trade",
-        disc: "Paper trading web app",
-        link : 'https://github.com/gokillboss/WhaleTrade'
+        img: Thinail,
+        langs: ["JavaScript", "CSS", "React", "Express", "AWS", "MongoDB"],
+        title: "Thinail",
+        disc: "Web app practice for nail certificate exam",
+        link: "https://thinail.com/",
     },
     {
         img: Portfolio,
-        langs: ["Bootstrap", "CSS", "javascript", "React, AOS"],
+        langs: ["Bootstrap", "CSS", "JavaScript", "React", "AOS"],
         title: "Portfolio",
         disc: "You are using it right now",
-        link : 'https://dhsam-bmt.com/'
-
+        link: "https://dhsam-bmt.com/",
     },
-    {
-        img: Wordle,
-        langs: ["MUI", "html", "CSS", "javascript", "Node.js", "React"],
-        title: "Wordle",
-        disc: "A Word guessing game",
-        link: 'https://gokillboss.github.io/Wordle/'
-    },
-   
 ];
 
 function Projects() {
     return (
-        <Container className="container-md mx-auto pt-5 my-5 ">
-            <div className="d-flex my-5 align-items-center justify-content-between my-auto">
-                <div data-aos="fade-down" className="mb-3 mb-sm-0">
-                    <div className="fs-2" style={{ color: 'white' }}>
+        <Container className="container-md mx-auto pt-5 my-5">
+            <div className="d-flex align-items-center justify-content-between">
+                <div data-aos="fade-down" className="mb-3">
+                    <div className="fs-2 text-white">
                         <span style={{ color: "#C778DD" }}>#</span>Projects
                     </div>
                 </div>
-                {/*  line */}
-                <div data-aos="fade-left" className="mx-4 my-5 d-none d-sm-block" style={{ width: '70%', backgroundColor: "#C778DD", height: '1px' }}></div>
-
+                <div
+                    data-aos="fade-left"
+                    className="mx-4 my-3 d-none d-sm-block"
+                    style={{ width: "80%", backgroundColor: "#C778DD", height: "1px" }}
+                ></div>
                 <div data-aos="fade-right">
-                    <NavLink to="/projects" style={{ color: 'white', textDecoration: 'none' }}>
-                        <span className="d-inline-block d-sm-none">View all ~~</span>
+                    <NavLink
+                        to="/projects"
+                        style={{ color: "white", textDecoration: "none" }}
+                    >
                         <span className="d-none d-sm-inline">View all ~~</span>
+                        <span className="d-inline-block d-sm-none">View all ~~</span>
                     </NavLink>
                 </div>
             </div>
 
-            <div data-aos="fade-up" className="mx-auto my-5 pt-5 justify-content-center align-items-center" >
-                <Row xs={1} sm={2} md={2} lg={3} xl={3} className="g-4 ">
+            <div data-aos="fade-up" className="mt-5">
+                <Row xs={1} sm={2} md={2} lg={3} className="g-4">
                     {projects.map(({ img, langs, title, disc, link }, index) => (
-                        <Col data-aos="fade-up" xs={12} lg={6}  key={index}>
-                            <ProjectCard img={img} langs={langs} title={title} disc={disc} link={link} />
+                        <Col key={index}>
+                            <ProjectCard
+                                img={img}
+                                langs={langs}
+                                title={title}
+                                disc={disc}
+                                link={link}
+                            />
                         </Col>
                     ))}
                 </Row>

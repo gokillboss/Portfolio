@@ -4,7 +4,7 @@ const Skills = () => {
     const skills = [
         {
             title: "Language",
-            languages: ["JavaScript", "C++", "Python", "Java"]
+            languages: ["JavaScript", "C++", "Python", "Java", "TypeScript"],
         },
         {
             title: "Frameworks",
@@ -22,11 +22,16 @@ const Skills = () => {
                 "Figma",
                 "Git",
                 "Postman",
+                "Slack",
             ],
         },
         {
             title: "Other",
-            languages: ["HTML", "CSS", "Bootstrap", "MUI"],
+            languages: ["HTML", "CSS", "Bootstrap"],
+        },
+        {
+            title: "Cloud",
+            languages: ["AWS" , "EC2", "Round 53", "S3", "CloudFront"],
         },
 
     ];
