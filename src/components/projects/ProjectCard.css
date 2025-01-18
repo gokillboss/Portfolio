@@ -1,23 +1,77 @@
+.project-card {
+    background-color: #282C33;
+    border: 1px solid #C778DD;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-/* Styles for the button */
-.linkButton {
-    margin-top: 10px;
-    background-color: transparent;
-    color: white;
-    font-weight: medium;
-    font-size: 20px;
-    padding: 4px 8px;
-    border: 1px solid #c778dd;
-    transition-duration: 200ms;
+.project-card:hover {
+    transform: scale(1.05); /* Slight scale on hover */
+    box-shadow: 0 4px 20px rgba(199, 120, 221, 0.5); /* Glow effect */
+}
+
+.project-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-image {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+.project-title {
+    color: #FFFFFF !important; /* Force white color */
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.divider {
+    width: 100%;
+    background-color: #C778DD;
+    height: 2px;
+    margin: 1rem 0;
+}
+
+.lang-tag {
+    background-color: #3B4048;
+    color: #C778DD;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-description {
+    color: #ABB2BF;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.live-button {
+    background-color: #C778DD;
+    color: #FFFFFF;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 20px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none; /* Loại bỏ gạch chân */
 }
 
-.linkButton:hover {
-    background-color: #c778dd33;
+.live-button:hover {
+    background-color: #FFFFFF;
+    color: #C778DD;
+    transform: translateY(-3px);
+    text-decoration: none; /* Đảm bảo không có gạch chân khi hover */
 }
-
-.linkButton:active {
-    background-color: #c778dd;
-  
-}
-
