@@ -5,7 +5,7 @@ import './work.css';
 
 const Works = () => {
     return (
-        <Container className='work-container'>
+        <Container className='work-container Container fluid'>
             {/* Header Section */}
             <Row className='my-5 pt-5'>
                 <Col className='d-flex justify-content-between align-items-center'>

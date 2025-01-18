@@ -9,10 +9,10 @@ const About = () => {
             <Row className="align-items-center justify-content-between ml-3">
                 <Col xs={6} data-aos="fade-right" data-aos-delay="400" className="mx-auto justify-content-end" style={{ minWidth: '25rem' }}>
                     <h2 className="font-semibold text-3xl text-white mb-3">
-                        Sam is a <span style={{ color: "#C778DD" }}>web developer</span> and <span style={{ color: "#C778DD" }}>Fullstack developer</span>
+                        Sam is a <span style={{ color: "#C778DD" }}>Fullstack Developer</span> and <span style={{ color: "#C778DD" }}>Software engineer</span>
                     </h2>
                     <p className="text-white my-6">
-                        He crafts responsive websites where technologies meet creativity
+                        I crafts responsive websites where technologies meet creativity
                     </p>
 
                     <div className='mt-3'>
@@ -33,7 +33,7 @@ const About = () => {
                     <div className="d-flex justify-content-center my-3 ">
                         <div className="border d-flex align-items-center gap-1 border-[#ABB2BF] p-2 text-[#ABB2BF]" style={{ maxWidth: "100%" }}>
                             <span className='mx-auto' style={{ backgroundColor: "#C778DD", width: '15px', height: '15px' }}></span>
-                            <span className="text-white align-items-center mx-3 text-center" style={{fontSize : '20px'}}>
+                            <span className="text-white align-items-center mx-3 text-center" style={{ fontSize: '20px' }}>
                                 Think Twice <span style={{ color: '#C778DD' }}>Code Once</span>
                             </span>
                         </div>
