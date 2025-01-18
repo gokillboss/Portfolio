@@ -54,7 +54,7 @@ const Skills = () => {
                     </div>
                 </Col>
                 <Col data-aos="fade-left" xs={12} lg={6} className='justify-content-center'>
-                    <div className='d-flex flex-wrap mx-auto '>
+                    <div className='d-flex flex-wrap mx-auto justify-content-center align-items-center">'>
                         {skills.map(({ title, languages }) => (
                             <div key={title} className='m-2 p-2 border '
                                 style={{ width: '100%', maxWidth: '12rem' }}

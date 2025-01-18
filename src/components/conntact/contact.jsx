@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-
+import { Linkedin, Envelope } from 'react-bootstrap-icons';
 
 
 const Contact = () => {
@@ -20,30 +20,38 @@ const Contact = () => {
                 <Col md={6} className="mx-auto">
                     <div className="" >
                         <p>
-                            I am interested in web development, including frontend and backend.
-                            I always aim to become the best web developer.
+                            I specialize in crafting seamless, dynamic, and user-friendly websites, mastering both frontend and backend development. Every project I undertake is a step toward my ultimate goal: becoming an exceptional web developer who delivers nothing short of excellence.
                             <br />
                             <br />
-                            Contact me, and we'll be on the same side !!!
+                            Let's connect and create something extraordinary together!
                         </p>
                     </div>
                 </Col>
 
                 <Col className="d-flex align-items-center justify-content-end mx-auto">
-
-                    <div className="border p-3 d-inline-block mx-5">
+                    <div className="border p-3 d-inline-block mx-5 text-white" style={{ width: '100%', maxWidth: '20rem' }}>
                         <h2 className="">Message me here</h2>
-
                         <div className="mx-auto">
-
-                            <div className="link-container">
-                                <a href="https://www.linkedin.com/in/sam-ho-b1006b221/" className="">
-                                    <img src={require("./LinkedIn.png")} alt="" className="img-fluid" style={{ width: '25px', margin: '4px' }} />
-                                    <span className="mx-2">@Sam Ho</span>
+                            <div className="d-flex align-items-center mt-2r">
+                                <a
+                                    href="https://www.linkedin.com/in/sam-ho-b1006b221/"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="social-link"
+                                    aria-label="LinkedIn"
+                                >
+                                    <Linkedin size={25} />
                                 </a>
+                                <span className="mx-2">@Sam Ho</span>
                             </div>
-                            <div className="">
-                                <img src={require("./Email.png")} alt="" className="" />
+                            <div className="d-flex align-items-center mt-2">
+                                <a
+                                    href="mailto:samho.bmt@gmail.com"
+                                    className="social-link"
+                                    aria-label="Email"
+                                >
+                                    <Envelope size={25} />
+                                </a>
                                 <span className="link-text"> samho.bmt@gmail.com</span>
                             </div>
                         </div>
