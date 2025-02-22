@@ -32,7 +32,7 @@ const Works = () => {
                                 <span className="separator">|</span>
                                 <span className="location">Remote</span>
                                 <span className="separator">|</span>
-                                <span className="duration">May 2024 – Current</span>
+                                <span className="duration">2023 – Current</span>
                             </div>
                         </div>
                         <p className="company-description">
@@ -50,7 +50,7 @@ const Works = () => {
                 <Col md={6} className='mb-4' data-aos="fade-left" data-aos-duration="1000">
                     <div className="experience-card">
                         <div className="card-header">
-                            <h3 className='position-title'>Full Stack Developer <span className="position-type">(Internship)</span></h3>
+                            <h3 className='position-title'>Full Stack Developer <span className="position-type"></span></h3>
                             <div className="company-info">
                                 <span className="company-name">PROJXON</span>
                                 <span className="separator">|</span>
